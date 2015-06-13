@@ -1,0 +1,181 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>punch bag</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+  </head>
+
+
+  <style>
+      body{
+        padding-top: 50px;
+      }
+      .starter{
+        padding: 200px 15px;
+        text-align: center;
+      }
+  </style>
+
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+      <div class="navbar-header"><a href="#" class="navbar-brand"><p>Alpha</p></a></div>
+      <div id="navsearch" class="search">
+      <input class="form-control" type="text" placeholder="Suchen">
+      </div>
+
+<!-- Navbar -->
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="#"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">+Neu</button>
+
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Neuer Auftrag</h4>
+                  </div>
+                  <div class="modal-body">
+                    ...
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Abbrechen</button>
+                    <button type="button" class="btn btn-primary">Speichern</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a></li>
+
+          <li><a href="" class="inputicon location"></a></li>
+          <li><a href="" class="inputicon activity"></a></li>
+          <li><a href="" class="inputicon chat"></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- left menu -->
+  <div id="left-menu" class="left-menu">
+      <ul class="list-unstyled">
+      <li class="left-menu-active choose-field"><a href="#"><span class="list fahrplan icon-active"></span>Fahrplan</a></li>
+      <li><a href="#"><span class="list dienstplan"></span>Dienstplan</a></li>
+      <li><a href="#"><span class="list stammdaten"></span>Stammdaten</a></li>
+      <li><a href="#"><span class="list abrechnung"></span>Abrechnung</a></li>
+      <li><a href="#"><span class="list statistik"></span>Statistik</a></li>
+      </ul>
+
+      <ul class="list-unstyled setting">
+      <li><a href="#"><span class="list einstellung"></span>Einstellung</a></li>
+      </ul>
+  </div>
+
+
+
+<div class="container main">
+
+  <!-- right menu -->
+
+  <div class="right-menu-fahrplan">
+    <div class="right-menu-search">
+      <input class="form-control rightmenu-search" type="text" placeholder="Suchen">
+    </div>
+
+    <div class="right-menu-title">
+      <div><h5>Offene Aufträge &nbsp &nbsp<small>9</small></h5></div>
+      <div class="alle"><a href="#"><h5>Alle</h5></a></div>
+    </div>
+
+
+    <div class="unorgenized-fahrplan">
+      <div class="datum"><h5>Heute</h5></div>
+      <ul class="list-unstyled">
+      <li><a href="#">
+        <div class="fahrplan-card">
+          <div class="card-content">
+          <span class="passenger list"></span><p>Tour 12(5 Kunden)</p>
+          <span class="fromto list"></span><p>14:45 Joseifillingstr.4,73525<br>
+                                       15:45 Kindergarten GD,73525</p>
+
+          <span class="driver list"></span><p><small>Fahrer</small></p>
+          <span class="auto list"></span><p><small>Auto</small></p>
+
+        </div>
+      </div>
+    </a></li>
+
+
+
+      <li><a href="#">
+        <div class="fahrplan-card">
+          <div class="card-content">
+          <span class="passenger2 list"></span><p>Lucas Terre</p>
+          <span class="fromto list"></span><p>15:25 Stein4,73525<br>
+                                       15:45 Marktplatz.10,73525</p>
+
+          <span class="driver list"></span><p><small>Fahrer</small></p>
+          <span class="auto list"></span><p><small>Auto</small></p>
+
+        </div>
+      </div>
+      </a>
+      </li>
+
+      <li><a href="#">
+        <div class="fahrplan-card">
+        </div></a>
+      </li>
+
+      <li><a href="#">
+        <div class="fahrplan-card">
+        </div></a>
+      </li>
+
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js({app,.tmp}) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+</body>
+</html>
