@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop-HD-Copy-15" sketch:type="MSArtboardGroup" transform="translate(-232.000000, -22.000000)">
+            <g id="search" sketch:type="MSLayerGroup" transform="translate(225.000000, 15.000000)">
+                <path d="M14.7522871,21.8933718 C16.5228712,21.8933718 18.1498944,21.3400576 19.4419423,20.3717579 L21.7867699,22.6311239 C22.026038,22.8616715 22.3610134,23 22.6959887,23 C23.0309641,23 23.3659395,22.8616715 23.6052076,22.6311239 C24.1315975,22.1239193 24.1315975,21.3400576 23.6052076,20.8789625 L21.2125264,18.573487 C22.026038,17.3746398 22.5045742,15.9913545 22.5045742,14.4697406 C22.5045742,10.3659942 19.0112597,7 14.7522871,7 C10.4933146,7 7,10.3659942 7,14.4697406 C7,18.5273775 10.4933146,21.8933718 14.7522871,21.8933718 L14.7522871,21.8933718 Z M14.7522871,9.44380403 C17.575651,9.44380403 19.9204785,11.6570605 19.9204785,14.4236311 C19.9204785,17.1440922 17.6235046,19.4034582 14.7522871,19.4034582 C11.9289233,19.4034582 9.58409571,17.1902017 9.58409571,14.4236311 C9.63194933,11.70317 11.9289233,9.44380403 14.7522871,9.44380403 L14.7522871,9.44380403 Z" id="Shape" fill="#C4C5BE" sketch:type="MSShapeGroup"></path>
+                <rect id="Rectangle-730" sketch:type="MSShapeGroup" x="0" y="0" width="30" height="30"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
