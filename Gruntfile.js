@@ -49,8 +49,8 @@ module.exports = function (grunt) {
         files: ['Gruntfile.js']
       },
       styles: {
-        files: ['<%= config.app %>/styles/{,*/}*.css'],
-        tasks: ['newer:copy:styles', 'autoprefixer']
+        files: ['<%= config.app %>/sass/{,*/}*.scss'],
+        tasks: ['sass', 'newer:copy:styles', 'autoprefixer']
       },
       livereload: {
         options: {
@@ -142,6 +142,18 @@ module.exports = function (grunt) {
           run: true,
           urls: ['http://<%= connect.test.options.hostname %>:<%= connect.test.options.port %>/index.html']
         }
+      }
+    },
+
+    sass: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '<%= config.app %>/sass',
+          src: ['*.scss'],
+          dest: '<%= config.app %>/styles',
+          ext: '.css'
+        }],
       }
     },
 
@@ -314,6 +326,7 @@ module.exports = function (grunt) {
     grunt.task.run([
       'clean:server',
       'wiredep',
+      'sass',
       'concurrent:server',
       'autoprefixer',
       'connect:livereload',
