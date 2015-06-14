@@ -11,9 +11,14 @@ nvm install v0.10.17
 nvm alias default v0.10.17
 ```
 
-Then change your current working directory to the project. Install the grunt plugin using `npm install -g grunt-cli`.
+Then change your current working directory to the project.
+
+Install the grunt using `npm install -g grunt-cli`.
+Install the bower using `npm install -g bower`.
 
 In the working directory, run `npm install`, notice that it might take a while to finish. Just be patient.
+
+Install the bootstrap by running `bower install` locally.
 
 Run `grunt serve` to start the server, the website will be automatically opened in browser.
 
