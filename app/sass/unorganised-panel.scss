@@ -1,0 +1,137 @@
+.right-menu-fahrplan a{
+  text-decoration: none;
+  color: #515151;
+}
+
+.right-menu-fahrplan{
+  position: relative;
+  float: right;
+  width: 240px;
+  height: 100%;
+  z-index: 1001;
+  background-color: #F5F5F5;
+  box-shadow: -1px 0px 0px 0px rgba(0,0,0,0.15);
+}
+
+.right-menu-search{
+  width: 230px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  margin-right: 6px;
+  margin-left: 6px;
+}
+
+.rightmenu-search{
+  border-radius: 50px;
+  text-align: center;
+}
+
+h5{
+  font-size: 13px;
+}
+h5 small{
+  font-size: 100%;
+  color: #EA5E4C;
+  font-weight: 400;
+}
+.right-menu-title{
+  width: 230px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.right-menu-title a{
+  text-decoration: none;
+  color: #4A4A4A;
+}
+
+.alle{
+  float: right;
+  margin-right: 10px;
+  margin-top: -32px;
+}
+
+.unorgenized-fahrplan{
+  margin-top: 40px;
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+.fahrplan-card {
+  background: #FFFFFF;
+  border: 1px solid #E3E3E3;
+  border-radius: 4px;
+  width: 222px;
+  height: 144px;
+  margin-top: 10px;
+  float: left;
+  padding-top: 10px;
+
+  a{
+    color: #515151;
+    text-decoration: none;
+  }
+
+  span{
+    margin-left: 10px;
+    margin-right: 4px;
+  }
+
+  p{
+    line-height: 18px;
+    small {
+      color:#C4C5BE;
+      font-size: 13px;
+    }
+  }
+}
+
+.unorgenized-fahrplan>.datum{
+  text-align: center;
+  color: #C4C5BE;
+}
+
+.passenger{
+  display: block;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  background-size: 11px 14px;
+}
+
+li:nth-child(even) .passenger{
+  background: url(/images/icons/passenger2.svg) no-repeat center center;
+}
+
+li:nth-child(odd) .passenger{
+  background: url(/images/icons/passenger.svg) no-repeat center center;
+}
+
+.from-to{
+  display: block;
+  text-indent: -9999px;
+  width: 20px;
+  height: 28px;
+  background: url(/images/icons/fromto.svg) no-repeat center center;
+  background-size: 8px 28px;
+  margin-top: 5px;
+}
+
+.driver{
+  display: block;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  background: url(/images/icons/driver.svg) no-repeat center center;
+  background-size: 14px 14px;
+}
+
+.auto{
+  display: block;
+  text-indent: -9999px;
+  width: 20px;
+  height: 20px;
+  background: url(/images/icons/auto.svg) no-repeat center center;
+  background-size: 15px 11px;
+}
