@@ -1,5 +1,5 @@
 body{
-  padding-top: 50px;
+  padding-top: 3vh;
   font-size: 13px;
 }
 
@@ -105,5 +105,9 @@ body{
   border:none;
 }
 
+.calendar {
+  position: relative;
+  top: 60px;
+}
 @import "left-panel";
 @import "unorganised-panel";
